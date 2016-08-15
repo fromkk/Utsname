@@ -18,46 +18,26 @@ public struct Utsname {
     }
     public var sysname: String {
         let mirror = Mirror(reflecting: self.systemInfo.sysname)
-        var result = ""
-        for child in mirror.children {
-            if let value = child.value as? Int8 where value != 0 {
-                result.append(UnicodeScalar(UInt8(value)))
-            }
-        }
-        return result
+        return self._stringFromMirror(mirror)
     }
     public var nodename: String {
         let mirror = Mirror(reflecting: self.systemInfo.nodename)
-        var result = ""
-        for child in mirror.children {
-            if let value = child.value as? Int8 where value != 0 {
-                result.append(UnicodeScalar(UInt8(value)))
-            }
-        }
-        return result
+        return self._stringFromMirror(mirror)
     }
     public var release: String {
         let mirror = Mirror(reflecting: self.systemInfo.release)
-        var result = ""
-        for child in mirror.children {
-            if let value = child.value as? Int8 where value != 0 {
-                result.append(UnicodeScalar(UInt8(value)))
-            }
-        }
-        return result
+        return self._stringFromMirror(mirror)
     }
     public var version: String {
         let mirror = Mirror(reflecting: self.systemInfo.version)
-        var result = ""
-        for child in mirror.children {
-            if let value = child.value as? Int8 where value != 0 {
-                result.append(UnicodeScalar(UInt8(value)))
-            }
-        }
-        return result
+        return self._stringFromMirror(mirror)
     }
     public var machine: String {
         let mirror = Mirror(reflecting: self.systemInfo.machine)
+        return self._stringFromMirror(mirror)
+    }
+
+    private func _stringFromMirror(mirror: Mirror) -> String {
         var result = ""
         for child in mirror.children {
             if let value = child.value as? Int8 where value != 0 {
