@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FE9C1C31D61BB9C009E880E"
-               BuildableName = "UtsnameDemo.app"
-               BlueprintName = "UtsnameDemo"
+               BlueprintIdentifier = "4FE9C1DD1D61BBAD009E880E"
+               BuildableName = "Utsname.framework"
+               BlueprintName = "Utsname"
                ReferencedContainer = "container:UtsnameDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FE9C1C31D61BB9C009E880E"
-            BuildableName = "UtsnameDemo.app"
-            BlueprintName = "UtsnameDemo"
-            ReferencedContainer = "container:UtsnameDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FE9C1C31D61BB9C009E880E"
-            BuildableName = "UtsnameDemo.app"
-            BlueprintName = "UtsnameDemo"
+            BlueprintIdentifier = "4FE9C1DD1D61BBAD009E880E"
+            BuildableName = "Utsname.framework"
+            BlueprintName = "Utsname"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FE9C1C31D61BB9C009E880E"
-            BuildableName = "UtsnameDemo.app"
-            BlueprintName = "UtsnameDemo"
+            BlueprintIdentifier = "4FE9C1DD1D61BBAD009E880E"
+            BuildableName = "Utsname.framework"
+            BlueprintName = "Utsname"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
