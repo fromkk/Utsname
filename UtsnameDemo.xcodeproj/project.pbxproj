@@ -10,11 +10,11 @@
 		4F47C6241D62DC2E007DD240 /* UtsnameWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C6231D62DC2E007DD240 /* UtsnameWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F47C6291D62DC38007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
 		4F47C6321D62DC44007DD240 /* UtsnameTv.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C6311D62DC44007DD240 /* UtsnameTv.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F47C6391D62DC44007DD240 /* UtsnameTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */; };
+		4F47C6391D62DC44007DD240 /* Utsname.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C62F1D62DC44007DD240 /* Utsname.framework */; };
 		4F47C63E1D62DC44007DD240 /* UtsnameTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47C63D1D62DC44007DD240 /* UtsnameTvTests.swift */; };
 		4F47C6461D62DC4E007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
 		4F47C64F1D62DC5B007DD240 /* UtsnameMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C64E1D62DC5B007DD240 /* UtsnameMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F47C6561D62DC5B007DD240 /* UtsnameMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */; };
+		4F47C6561D62DC5B007DD240 /* Utsname.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C64C1D62DC5B007DD240 /* Utsname.framework */; };
 		4F47C65B1D62DC5B007DD240 /* UtsnameMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47C65A1D62DC5B007DD240 /* UtsnameMacTests.swift */; };
 		4F47C6711D62DF0A007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
 		4FE9C1C81D61BB9C009E880E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1C71D61BB9C009E880E /* AppDelegate.swift */; };
@@ -67,16 +67,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C6211D62DC2E007DD240 /* Utsname.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utsname.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47C6231D62DC2E007DD240 /* UtsnameWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameWatch.h; sourceTree = "<group>"; };
 		4F47C6251D62DC2E007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C62F1D62DC44007DD240 /* Utsname.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utsname.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47C6311D62DC44007DD240 /* UtsnameTv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameTv.h; sourceTree = "<group>"; };
 		4F47C6331D62DC44007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F47C6381D62DC44007DD240 /* UtsnameTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtsnameTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47C63D1D62DC44007DD240 /* UtsnameTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtsnameTvTests.swift; sourceTree = "<group>"; };
 		4F47C63F1D62DC44007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C64C1D62DC5B007DD240 /* Utsname.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utsname.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47C64E1D62DC5B007DD240 /* UtsnameMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameMac.h; sourceTree = "<group>"; };
 		4F47C6501D62DC5B007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F47C6551D62DC5B007DD240 /* UtsnameMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtsnameMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F47C6391D62DC44007DD240 /* UtsnameTv.framework in Frameworks */,
+				4F47C6391D62DC44007DD240 /* Utsname.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F47C6561D62DC5B007DD240 /* UtsnameMac.framework in Frameworks */,
+				4F47C6561D62DC5B007DD240 /* Utsname.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,10 +215,10 @@
 			children = (
 				4FE9C1C41D61BB9C009E880E /* UtsnameDemo.app */,
 				4FE9C1DE1D61BBAD009E880E /* Utsname.framework */,
-				4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */,
-				4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */,
+				4F47C6211D62DC2E007DD240 /* Utsname.framework */,
+				4F47C62F1D62DC44007DD240 /* Utsname.framework */,
 				4F47C6381D62DC44007DD240 /* UtsnameTvTests.xctest */,
-				4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */,
+				4F47C64C1D62DC5B007DD240 /* Utsname.framework */,
 				4F47C6551D62DC5B007DD240 /* UtsnameMacTests.xctest */,
 			);
 			name = Products;
@@ -300,7 +300,7 @@
 			);
 			name = UtsnameWatch;
 			productName = UtsnameWatch;
-			productReference = 4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */;
+			productReference = 4F47C6211D62DC2E007DD240 /* Utsname.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F47C62E1D62DC44007DD240 /* UtsnameTv */ = {
@@ -318,7 +318,7 @@
 			);
 			name = UtsnameTv;
 			productName = UtsnameTv;
-			productReference = 4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */;
+			productReference = 4F47C62F1D62DC44007DD240 /* Utsname.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F47C6371D62DC44007DD240 /* UtsnameTvTests */ = {
@@ -354,7 +354,7 @@
 			);
 			name = UtsnameMac;
 			productName = UtsnameMac;
-			productReference = 4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */;
+			productReference = 4F47C64C1D62DC5B007DD240 /* Utsname.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F47C6541D62DC5B007DD240 /* UtsnameMacTests */ = {
@@ -635,7 +635,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameWatch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -658,7 +658,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameWatch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -680,7 +680,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameTv;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -702,7 +702,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameTv;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -752,7 +752,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -776,7 +776,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Utsname;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
