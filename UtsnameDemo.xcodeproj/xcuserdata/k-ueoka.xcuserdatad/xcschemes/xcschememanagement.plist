@@ -14,9 +14,49 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>UtsnameMac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>UtsnameTv.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>UtsnameWatch.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4F47C6201D62DC2E007DD240</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F47C62E1D62DC44007DD240</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F47C6371D62DC44007DD240</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F47C64B1D62DC5B007DD240</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F47C6541D62DC5B007DD240</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4FE9C1C31D61BB9C009E880E</key>
 		<dict>
 			<key>primary</key>

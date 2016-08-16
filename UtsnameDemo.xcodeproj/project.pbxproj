@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F47C6241D62DC2E007DD240 /* UtsnameWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C6231D62DC2E007DD240 /* UtsnameWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F47C6291D62DC38007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
+		4F47C6321D62DC44007DD240 /* UtsnameTv.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C6311D62DC44007DD240 /* UtsnameTv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F47C6391D62DC44007DD240 /* UtsnameTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */; };
+		4F47C63E1D62DC44007DD240 /* UtsnameTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47C63D1D62DC44007DD240 /* UtsnameTvTests.swift */; };
+		4F47C6461D62DC4E007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
+		4F47C64F1D62DC5B007DD240 /* UtsnameMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C64E1D62DC5B007DD240 /* UtsnameMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F47C6561D62DC5B007DD240 /* UtsnameMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */; };
+		4F47C65B1D62DC5B007DD240 /* UtsnameMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47C65A1D62DC5B007DD240 /* UtsnameMacTests.swift */; };
+		4F47C6711D62DF0A007DD240 /* Utsname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1EB1D61BBBB009E880E /* Utsname.swift */; };
 		4FE9C1C81D61BB9C009E880E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1C71D61BB9C009E880E /* AppDelegate.swift */; };
 		4FE9C1CA1D61BB9C009E880E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9C1C91D61BB9C009E880E /* ViewController.swift */; };
 		4FE9C1CD1D61BB9C009E880E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE9C1CB1D61BB9C009E880E /* Main.storyboard */; };
@@ -19,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4F47C63A1D62DC44007DD240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FE9C1BC1D61BB9C009E880E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F47C62E1D62DC44007DD240;
+			remoteInfo = UtsnameTv;
+		};
+		4F47C6571D62DC5B007DD240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FE9C1BC1D61BB9C009E880E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F47C64B1D62DC5B007DD240;
+			remoteInfo = UtsnameMac;
+		};
 		4FE9C1E31D61BBAD009E880E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4FE9C1BC1D61BB9C009E880E /* Project object */;
@@ -43,6 +67,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C6231D62DC2E007DD240 /* UtsnameWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameWatch.h; sourceTree = "<group>"; };
+		4F47C6251D62DC2E007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C6311D62DC44007DD240 /* UtsnameTv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameTv.h; sourceTree = "<group>"; };
+		4F47C6331D62DC44007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F47C6381D62DC44007DD240 /* UtsnameTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtsnameTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C63D1D62DC44007DD240 /* UtsnameTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtsnameTvTests.swift; sourceTree = "<group>"; };
+		4F47C63F1D62DC44007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtsnameMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C64E1D62DC5B007DD240 /* UtsnameMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtsnameMac.h; sourceTree = "<group>"; };
+		4F47C6501D62DC5B007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F47C6551D62DC5B007DD240 /* UtsnameMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtsnameMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47C65A1D62DC5B007DD240 /* UtsnameMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtsnameMacTests.swift; sourceTree = "<group>"; };
+		4F47C65C1D62DC5B007DD240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE9C1C41D61BB9C009E880E /* UtsnameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtsnameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE9C1C71D61BB9C009E880E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FE9C1C91D61BB9C009E880E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +96,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4F47C61D1D62DC2E007DD240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C62B1D62DC44007DD240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6351D62DC44007DD240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6391D62DC44007DD240 /* UtsnameTv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6481D62DC5B007DD240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6521D62DC5B007DD240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6561D62DC5B007DD240 /* UtsnameMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FE9C1C11D61BB9C009E880E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,11 +151,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F47C6221D62DC2E007DD240 /* UtsnameWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C6231D62DC2E007DD240 /* UtsnameWatch.h */,
+				4F47C6251D62DC2E007DD240 /* Info.plist */,
+			);
+			path = UtsnameWatch;
+			sourceTree = "<group>";
+		};
+		4F47C6301D62DC44007DD240 /* UtsnameTv */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C6311D62DC44007DD240 /* UtsnameTv.h */,
+				4F47C6331D62DC44007DD240 /* Info.plist */,
+			);
+			path = UtsnameTv;
+			sourceTree = "<group>";
+		};
+		4F47C63C1D62DC44007DD240 /* UtsnameTvTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C63D1D62DC44007DD240 /* UtsnameTvTests.swift */,
+				4F47C63F1D62DC44007DD240 /* Info.plist */,
+			);
+			path = UtsnameTvTests;
+			sourceTree = "<group>";
+		};
+		4F47C64D1D62DC5B007DD240 /* UtsnameMac */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C64E1D62DC5B007DD240 /* UtsnameMac.h */,
+				4F47C6501D62DC5B007DD240 /* Info.plist */,
+			);
+			path = UtsnameMac;
+			sourceTree = "<group>";
+		};
+		4F47C6591D62DC5B007DD240 /* UtsnameMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C65A1D62DC5B007DD240 /* UtsnameMacTests.swift */,
+				4F47C65C1D62DC5B007DD240 /* Info.plist */,
+			);
+			path = UtsnameMacTests;
+			sourceTree = "<group>";
+		};
 		4FE9C1BB1D61BB9C009E880E = {
 			isa = PBXGroup;
 			children = (
 				4FE9C1C61D61BB9C009E880E /* UtsnameDemo */,
 				4FE9C1DF1D61BBAD009E880E /* Utsname */,
+				4F47C6221D62DC2E007DD240 /* UtsnameWatch */,
+				4F47C6301D62DC44007DD240 /* UtsnameTv */,
+				4F47C63C1D62DC44007DD240 /* UtsnameTvTests */,
+				4F47C64D1D62DC5B007DD240 /* UtsnameMac */,
+				4F47C6591D62DC5B007DD240 /* UtsnameMacTests */,
 				4FE9C1C51D61BB9C009E880E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +215,11 @@
 			children = (
 				4FE9C1C41D61BB9C009E880E /* UtsnameDemo.app */,
 				4FE9C1DE1D61BBAD009E880E /* Utsname.framework */,
+				4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */,
+				4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */,
+				4F47C6381D62DC44007DD240 /* UtsnameTvTests.xctest */,
+				4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */,
+				4F47C6551D62DC5B007DD240 /* UtsnameMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +250,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4F47C61E1D62DC2E007DD240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6241D62DC2E007DD240 /* UtsnameWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C62C1D62DC44007DD240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6321D62DC44007DD240 /* UtsnameTv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6491D62DC5B007DD240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C64F1D62DC5B007DD240 /* UtsnameMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FE9C1DB1D61BBAD009E880E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +285,96 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4F47C6201D62DC2E007DD240 /* UtsnameWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F47C6281D62DC2E007DD240 /* Build configuration list for PBXNativeTarget "UtsnameWatch" */;
+			buildPhases = (
+				4F47C61C1D62DC2E007DD240 /* Sources */,
+				4F47C61D1D62DC2E007DD240 /* Frameworks */,
+				4F47C61E1D62DC2E007DD240 /* Headers */,
+				4F47C61F1D62DC2E007DD240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UtsnameWatch;
+			productName = UtsnameWatch;
+			productReference = 4F47C6211D62DC2E007DD240 /* UtsnameWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F47C62E1D62DC44007DD240 /* UtsnameTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F47C6401D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTv" */;
+			buildPhases = (
+				4F47C62A1D62DC44007DD240 /* Sources */,
+				4F47C62B1D62DC44007DD240 /* Frameworks */,
+				4F47C62C1D62DC44007DD240 /* Headers */,
+				4F47C62D1D62DC44007DD240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UtsnameTv;
+			productName = UtsnameTv;
+			productReference = 4F47C62F1D62DC44007DD240 /* UtsnameTv.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F47C6371D62DC44007DD240 /* UtsnameTvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F47C6431D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTvTests" */;
+			buildPhases = (
+				4F47C6341D62DC44007DD240 /* Sources */,
+				4F47C6351D62DC44007DD240 /* Frameworks */,
+				4F47C6361D62DC44007DD240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F47C63B1D62DC44007DD240 /* PBXTargetDependency */,
+			);
+			name = UtsnameTvTests;
+			productName = UtsnameTvTests;
+			productReference = 4F47C6381D62DC44007DD240 /* UtsnameTvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F47C64B1D62DC5B007DD240 /* UtsnameMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F47C65D1D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMac" */;
+			buildPhases = (
+				4F47C6471D62DC5B007DD240 /* Sources */,
+				4F47C6481D62DC5B007DD240 /* Frameworks */,
+				4F47C6491D62DC5B007DD240 /* Headers */,
+				4F47C64A1D62DC5B007DD240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UtsnameMac;
+			productName = UtsnameMac;
+			productReference = 4F47C64C1D62DC5B007DD240 /* UtsnameMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F47C6541D62DC5B007DD240 /* UtsnameMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F47C6601D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMacTests" */;
+			buildPhases = (
+				4F47C6511D62DC5B007DD240 /* Sources */,
+				4F47C6521D62DC5B007DD240 /* Frameworks */,
+				4F47C6531D62DC5B007DD240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F47C6581D62DC5B007DD240 /* PBXTargetDependency */,
+			);
+			name = UtsnameMacTests;
+			productName = UtsnameMacTests;
+			productReference = 4F47C6551D62DC5B007DD240 /* UtsnameMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4FE9C1C31D61BB9C009E880E /* UtsnameDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FE9C1D61D61BB9C009E880E /* Build configuration list for PBXNativeTarget "UtsnameDemo" */;
@@ -177,6 +422,21 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = fromKK;
 				TargetAttributes = {
+					4F47C6201D62DC2E007DD240 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F47C62E1D62DC44007DD240 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F47C6371D62DC44007DD240 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F47C64B1D62DC5B007DD240 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F47C6541D62DC5B007DD240 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					4FE9C1C31D61BB9C009E880E = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -200,11 +460,51 @@
 			targets = (
 				4FE9C1C31D61BB9C009E880E /* UtsnameDemo */,
 				4FE9C1DD1D61BBAD009E880E /* Utsname */,
+				4F47C6201D62DC2E007DD240 /* UtsnameWatch */,
+				4F47C62E1D62DC44007DD240 /* UtsnameTv */,
+				4F47C6371D62DC44007DD240 /* UtsnameTvTests */,
+				4F47C64B1D62DC5B007DD240 /* UtsnameMac */,
+				4F47C6541D62DC5B007DD240 /* UtsnameMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4F47C61F1D62DC2E007DD240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C62D1D62DC44007DD240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6361D62DC44007DD240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C64A1D62DC5B007DD240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6531D62DC5B007DD240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FE9C1C21D61BB9C009E880E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +525,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4F47C61C1D62DC2E007DD240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6291D62DC38007DD240 /* Utsname.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C62A1D62DC44007DD240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6461D62DC4E007DD240 /* Utsname.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6341D62DC44007DD240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C63E1D62DC44007DD240 /* UtsnameTvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6471D62DC5B007DD240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C6711D62DF0A007DD240 /* Utsname.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F47C6511D62DC5B007DD240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F47C65B1D62DC5B007DD240 /* UtsnameMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FE9C1C01D61BB9C009E880E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +585,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4F47C63B1D62DC44007DD240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F47C62E1D62DC44007DD240 /* UtsnameTv */;
+			targetProxy = 4F47C63A1D62DC44007DD240 /* PBXContainerItemProxy */;
+		};
+		4F47C6581D62DC5B007DD240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F47C64B1D62DC5B007DD240 /* UtsnameMac */;
+			targetProxy = 4F47C6571D62DC5B007DD240 /* PBXContainerItemProxy */;
+		};
 		4FE9C1E41D61BBAD009E880E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4FE9C1DD1D61BBAD009E880E /* Utsname */;
@@ -272,6 +622,196 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4F47C6261D62DC2E007DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UtsnameWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4F47C6271D62DC2E007DD240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UtsnameWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4F47C6411D62DC44007DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UtsnameTv/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F47C6421D62DC44007DD240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UtsnameTv/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F47C6441D62DC44007DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UtsnameTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameTvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		4F47C6451D62DC44007DD240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UtsnameTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameTvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		4F47C65E1D62DC5B007DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = UtsnameMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F47C65F1D62DC5B007DD240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = UtsnameMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F47C6611D62DC5B007DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UtsnameMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F47C6621D62DC5B007DD240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UtsnameMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.UtsnameMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		4FE9C1D41D61BB9C009E880E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +965,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4F47C6281D62DC2E007DD240 /* Build configuration list for PBXNativeTarget "UtsnameWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F47C6261D62DC2E007DD240 /* Debug */,
+				4F47C6271D62DC2E007DD240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F47C6401D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F47C6411D62DC44007DD240 /* Debug */,
+				4F47C6421D62DC44007DD240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F47C6431D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F47C6441D62DC44007DD240 /* Debug */,
+				4F47C6451D62DC44007DD240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F47C65D1D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F47C65E1D62DC5B007DD240 /* Debug */,
+				4F47C65F1D62DC5B007DD240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F47C6601D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F47C6611D62DC5B007DD240 /* Debug */,
+				4F47C6621D62DC5B007DD240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4FE9C1BF1D61BB9C009E880E /* Build configuration list for PBXProject "UtsnameDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
