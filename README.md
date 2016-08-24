@@ -20,6 +20,8 @@ Then execute `carthage update` from command line.
 # Usage
 
 ```swift
+import Utsname
+
 let systemInfo = Utsname()
 print(systemInfo.machine)
 print(systemInfo.nodename)
