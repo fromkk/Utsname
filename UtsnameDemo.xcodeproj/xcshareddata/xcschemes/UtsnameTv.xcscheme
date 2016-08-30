@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F47C62E1D62DC44007DD240"
-               BuildableName = "UtsnameTv.framework"
+               BuildableName = "Utsname.framework"
                BlueprintName = "UtsnameTv"
                ReferencedContainer = "container:UtsnameDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C62E1D62DC44007DD240"
-            BuildableName = "UtsnameTv.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameTv"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C62E1D62DC44007DD240"
-            BuildableName = "UtsnameTv.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameTv"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C62E1D62DC44007DD240"
-            BuildableName = "UtsnameTv.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameTv"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>

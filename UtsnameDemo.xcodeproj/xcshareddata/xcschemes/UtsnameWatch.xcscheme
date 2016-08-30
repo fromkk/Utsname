@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F47C6201D62DC2E007DD240"
-               BuildableName = "UtsnameWatch.framework"
+               BuildableName = "Utsname.framework"
                BlueprintName = "UtsnameWatch"
                ReferencedContainer = "container:UtsnameDemo.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C6201D62DC2E007DD240"
-            BuildableName = "UtsnameWatch.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameWatch"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C6201D62DC2E007DD240"
-            BuildableName = "UtsnameWatch.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameWatch"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>

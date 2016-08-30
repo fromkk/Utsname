@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F47C64B1D62DC5B007DD240"
-               BuildableName = "UtsnameMac.framework"
+               BuildableName = "Utsname.framework"
                BlueprintName = "UtsnameMac"
                ReferencedContainer = "container:UtsnameDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C64B1D62DC5B007DD240"
-            BuildableName = "UtsnameMac.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameMac"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C64B1D62DC5B007DD240"
-            BuildableName = "UtsnameMac.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameMac"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F47C64B1D62DC5B007DD240"
-            BuildableName = "UtsnameMac.framework"
+            BuildableName = "Utsname.framework"
             BlueprintName = "UtsnameMac"
             ReferencedContainer = "container:UtsnameDemo.xcodeproj">
          </BuildableReference>
