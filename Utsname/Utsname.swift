@@ -11,7 +11,7 @@ import Foundation
 public struct Utsname {
     public init() {}
 
-    private var systemInfo: utsname {
+    fileprivate var systemInfo: utsname {
         var result: utsname = utsname()
         uname(&result)
         return result
@@ -37,11 +37,11 @@ public struct Utsname {
         return self._stringFromMirror(mirror)
     }
 
-    private func _stringFromMirror(mirror: Mirror) -> String {
+    fileprivate func _stringFromMirror(_ mirror: Mirror) -> String {
         var result = ""
         for child in mirror.children {
-            if let value = child.value as? Int8 where value != 0 {
-                result.append(UnicodeScalar(UInt8(value)))
+            if let value = child.value as? Int8 , value != 0 {
+                result.append(String(UnicodeScalar(UInt8(value))))
             }
         }
         return result

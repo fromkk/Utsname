@@ -10,40 +10,40 @@ import UIKit
 import Utsname
 
 enum Rows: Int {
-    case Sysname
-    case Nodename
-    case Release
-    case Version
-    case Machine
+    case sysname
+    case nodename
+    case release
+    case version
+    case machine
     case count
 
     var name: String {
         switch self {
-        case .Sysname:
+        case .sysname:
             return "sysname"
-        case .Nodename:
+        case .nodename:
             return "nodename"
-        case .Release:
+        case .release:
             return "release"
-        case .Version:
+        case .version:
             return "version"
-        case .Machine:
+        case .machine:
             return "machine"
         default:
             return ""
         }
     }
-    func value(utsname: Utsname) -> String {
+    func value(_ utsname: Utsname) -> String {
         switch self {
-        case .Sysname:
+        case .sysname:
             return utsname.sysname
-        case .Nodename:
+        case .nodename:
             return utsname.nodename
-        case .Release:
+        case .release:
             return utsname.release
-        case .Version:
+        case .version:
             return utsname.version
-        case .Machine:
+        case .machine:
             return utsname.machine
         default:
             return ""
@@ -74,19 +74,19 @@ class ViewController: UITableViewController {
 }
 
 extension ViewController {
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Rows.count.rawValue
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        guard let cell: ViewControllerCell = tableView.dequeueReusableCellWithIdentifier(ViewControllerCell.cellIdentifier, forIndexPath: indexPath) as? ViewControllerCell else {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell: ViewControllerCell = tableView.dequeueReusableCell(withIdentifier: ViewControllerCell.cellIdentifier, for: indexPath) as? ViewControllerCell else {
             fatalError("cell get failed")
         }
-        if let row: Rows = Rows(rawValue: indexPath.row) {
+        if let row: Rows = Rows(rawValue: (indexPath as NSIndexPath).row) {
             cell.nameLabel.text = row.name
             cell.valueLabel.text = row.value(self.utsname)
         }
@@ -94,7 +94,7 @@ extension ViewController {
         return cell
     }
 
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80.0
     }
 }
