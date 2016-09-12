@@ -439,9 +439,11 @@
 					};
 					4FE9C1C31D61BB9C009E880E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					4FE9C1DD1D61BBAD009E880E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -854,6 +856,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -891,6 +894,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -904,6 +908,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -916,6 +921,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.UtsnameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -935,6 +941,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -956,6 +963,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.Utsname;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -972,6 +980,7 @@
 				4F47C6271D62DC2E007DD240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F47C6401D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTv" */ = {
 			isa = XCConfigurationList;
@@ -980,6 +989,7 @@
 				4F47C6421D62DC44007DD240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F47C6431D62DC44007DD240 /* Build configuration list for PBXNativeTarget "UtsnameTvTests" */ = {
 			isa = XCConfigurationList;
@@ -988,6 +998,7 @@
 				4F47C6451D62DC44007DD240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F47C65D1D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMac" */ = {
 			isa = XCConfigurationList;
@@ -996,6 +1007,7 @@
 				4F47C65F1D62DC5B007DD240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F47C6601D62DC5B007DD240 /* Build configuration list for PBXNativeTarget "UtsnameMacTests" */ = {
 			isa = XCConfigurationList;
@@ -1004,6 +1016,7 @@
 				4F47C6621D62DC5B007DD240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FE9C1BF1D61BB9C009E880E /* Build configuration list for PBXProject "UtsnameDemo" */ = {
 			isa = XCConfigurationList;
