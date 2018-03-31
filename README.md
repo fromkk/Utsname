@@ -12,7 +12,7 @@ If you don't have `Cartfile`, you should make that file.
 Add line in Cartfile.
 
 ```
-github "fromkk/Utsname" == 0.0.5
+github "fromkk/Utsname" == 0.0.9
 ```
 
 Then execute `carthage update` from command line.
