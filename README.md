@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fromkk/Utsname.svg?branch=master)](https://travis-ci.org/fromkk/Utsname)
+
 # Utsname for Swift
 
 `Utsname` is wrapped C library `utsname`.
