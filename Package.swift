@@ -4,11 +4,11 @@ import PackageDescription
 let package = Package(
     name: "Utsname",
     products: [
-        .library(name: "Utasname", targets: ["Utasname"])
+        .library(name: "Utsname", targets: ["Utsname"])
     ],
     targets: [
         .target(
-            name: "Utasname",
+            name: "Utsname",
             path: "Utsname",
             exclude: []
         )
